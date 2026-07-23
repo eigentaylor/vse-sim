@@ -1,0 +1,14 @@
+# Requires Python >=3.14,<3.15 (see pyproject.toml).
+#
+# Runtime dependencies (see pyproject.toml, the canonical source for this
+# project's dependency ranges; this file exists for pip-based / notebook
+# environments that don't use uv).
+numpy>=2.3,<3
+scipy>=1.16,<2
+
+# Needed to run notebooks/vse_checkpoint1.ipynb (plotting, IPython.display).
+matplotlib>=3.10,<4
+jupyter>=1,<2
+
+# Dev / test tooling.
+pytest>=7,<10
